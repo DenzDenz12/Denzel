@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Installations - DStv, OVHD, TV Mounting, CCTV & Repairs</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+        /* Custom scrollbar for better aesthetics, if desired */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm py-4 px-6 md:px-10 sticky top-0 z-50 rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl md:text-3xl font-bold text-blue-700 tracking-tight rounded-lg p-2 hover:bg-blue-50 transition duration-300">Aura Installations</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">Home</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">Services</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">About Us</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">Contact</a>
+            </nav>
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-blue-700 focus:outline-none p-2 rounded-lg hover:bg-blue-50 transition duration-300">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white rounded-lg mt-2 shadow-lg">
+            <nav class="flex flex-col space-y-2 py-4 px-6">
+                <a href="#home" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">Home</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">Services</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">About Us</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-700 font-medium transition duration-300 py-2 px-3 rounded-lg hover:bg-blue-50">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 md:py-28 flex items-center justify-center min-h-[500px] overflow-hidden rounded-b-xl shadow-lg">
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://placehold.co/1920x1080/0A2C59/FFFFFF?text=Modern+Installation+Background');"></div>
+        <div class="relative container mx-auto text-center px-6 md:px-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in-down drop-shadow-lg">Your Trusted Partner for Home & Entertainment Solutions</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90 animate-fade-in drop-shadow-md">
+                Expert installations and reliable repairs for DStv, OVHD, TV Mounting, CCTV, and Home Appliances.
+            </p>
+            <a href="#contact" class="bg-white text-blue-700 hover:bg-blue-100 hover:text-blue-800 transition duration-300 font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 inline-block text-lg">
+                Get a Free Quote Today!
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-white rounded-xl shadow-md mx-4 md:mx-auto mt-8 max-w-7xl">
+        <div class="container mx-auto px-6 md:px-10 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-12">Our Comprehensive Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Service Item 1: DStv Installation -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-100">
+                    <div class="text-blue-600 mb-4 flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-satellite"><path d="M13 14h.01"/><path d="M16 16h.01"/><path d="M18 11h.01"/><path d="M20 8h.01"/><path d="M17 5h.01"/><path d="M14 2h.01"/><path d="M2 13a6 6 0 0 1 6 6c0 2.22-2 4-4 4s-4-1.78-4-4 2-4 4-4c.73 0 1.4.15 2 .45"/><path d="m22 2-2 2L6 18l-2 2"/><path d="M15 11c1.24 1.24 2 3 2 5s-.76 3.76-2 5c-1.24-1.24-2-3-2-5s.76-3.76 2-5Z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">DStv Installation</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Professional and reliable DStv dish installations, signal troubleshooting, and decoder setup for crystal clear entertainment. We ensure optimal reception and a seamless viewing experience.
+                    </p>
+                </div>
+
+                <!-- Service Item 2: OVHD Installation -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-100">
+                    <div class="text-blue-600 mb-4 flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tv"><path d="M2 7H22"/><path d="M4 17h16"/><path d="M17 2l5 5-5 5"/><path d="M7 2l-5 5 5 5"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">OVHD Installation</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Get access to free-to-air channels with our expert OVHD satellite dish installation and setup services. Enjoy a wide range of local and international content.
+                    </p>
+                </div>
+
+                <!-- Service Item 3: TV Wall Mounting -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-100">
+                    <div class="text-blue-600 mb-4 flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor-dot"><circle cx="12" cy="12" r="1"/><path d="M19 3H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h4l2 3h2l2-3h4a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">TV Wall Mounting</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Secure and aesthetically pleasing TV wall mounting services for all screen sizes. We ensure optimal viewing angles and hide unsightly cables for a clean look.
+                    </p>
+                </div>
+
+                <!-- Service Item 4: CCTV Installation -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-100">
+                    <div class="text-blue-600 mb-4 flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-videocamera"><path d="M22 8.5L16 12l6 3.5V8.5z"/><path d="M14 5a2 2 0 0 0-2-2H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V5z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">CCTV Installation</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Enhance your security with our professional CCTV camera installation services. We set up reliable surveillance systems for homes and businesses.
+                    </p>
+                </div>
+
+                <!-- Service Item 5: TV Repairs -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-100">
+                    <div class="text-blue-600 mb-4 flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">TV Repairs</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Experienced technicians for all types of TV repairs, from minor issues to major malfunctions. Get your entertainment back on track quickly.
+                    </p>
+                </div>
+
+                <!-- Service Item 6: Home Appliance Repairs -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2 border border-gray-100">
+                    <div class="text-blue-600 mb-4 flex justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-blender"><path d="M16 4V2H8v2"/><path d="M8 10V4h8v6"/><path d="M16 10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h8Z"/><path d="M7 17v3a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-3"/><path d="M12 10V4"/></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Home Appliance Repairs</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Reliable repair services for a wide range of home appliances, including washing machines, refrigerators, microwaves, and more.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-gray-100 rounded-xl shadow-md mx-4 md:mx-auto mt-8 max-w-7xl">
+        <div class="container mx-auto px-6 md:px-10 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-12">About Aura Installations</h2>
+            <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+                <p class="mb-6">
+                    Aura Installations is your premier partner for all things related to home entertainment and security in [Your City/Region, e.g., Johannesburg, Pretoria]. With years of experience, we pride ourselves on delivering top-notch installation and repair services with unparalleled professionalism and customer satisfaction.
+                </p>
+                <p class="mb-6">
+                    Our team of skilled technicians is dedicated to providing efficient, reliable, and high-quality solutions, whether it's setting up your DStv, mounting your new TV, installing a comprehensive CCTV system, or bringing your faulty TV and home appliances back to life. We use only the best tools and practices to ensure lasting results.
+                </p>
+                <p>
+                    At Aura Installations, we believe in clear communication, fair pricing, and building long-term relationships with our clients. Your peace of mind is our priority.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white rounded-xl shadow-md mx-4 md:mx-auto mt-8 mb-8 max-w-7xl">
+        <div class="container mx-auto px-6 md:px-10 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-12">Get in Touch With Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                <!-- Contact Information -->
+                <div class="text-left bg-blue-50 p-8 rounded-xl shadow-md border border-blue-100">
+                    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Contact Information</h3>
+                    <p class="text-gray-700 mb-4 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.113L9.348 11.4a12.006 12.006 0 005.656 5.656l1.585-1.585a1 1 0 011.113-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.717 21 3 14.283 3 6V5z" />
+                        </svg>
+                        <span class="text-lg">+27 12 345 6789</span>
+                    </p>
+                    <p class="text-gray-700 mb-4 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <span class="text-lg">info@aurainstallations.com</span>
+                    </p>
+                    <p class="text-gray-700 mb-4 flex items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 text-blue-600 mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span class="text-lg">123 Installation Street, Tech City, Gauteng, South Africa</span>
+                    </p>
+                    <div class="flex space-x-4 mt-6 justify-center md:justify-start">
+                        <!-- Placeholder Social Media Icons -->
+                        <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300 transform hover:scale-110">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.65H8.067v-2.39h2.371v-1.748c0-2.348 1.417-3.636 3.543-3.636 1.018 0 1.905.076 2.164.11v2.441h-1.442c-1.138 0-1.359.544-1.359 1.339v1.751h2.713l-.442 2.39h-2.271v7.229C18.343 21.128 22 16.991 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300 transform hover:scale-110">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M7 10.748h2.826V19H7v-8.252zm4.127 0h2.827V19h-2.827v-8.252zm4.127 0h2.826V19h-2.826v-8.252zM21.999 4c0-.55-.45-1-1-1h-18c-.55 0-1 .45-1 1v16c0 .55.45 1 1 1h18c.55 0 1-.45 1-1V4z"/></svg>
+                        </a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 transition duration-300 transform hover:scale-110">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.35c0 .732.593 1.325 1.325 1.325h21.35c.732 0 1.325-.593 1.325-1.325v-21.35c0-.732-.593-1.325-1.325-1.325zm-6.035 7.828c-1.306 0-2.368 1.062-2.368 2.368s1.062 2.368 2.368 2.368 2.368-1.062 2.368-2.368-1.062-2.368-2.368-2.368zm6.035 12.04c-.161.082-.35.127-.545.127-.406 0-.796-.179-1.066-.503-.312-.379-.496-.867-.496-1.385v-1.619c0-.447.362-.809.809-.809s.809.362.809.809v1.171c0 .034.027.062.062.062s.062-.027.062-.062c.005-.078.005-.157.005-.236v-1.171c0-.447.362-.809.809-.809s.809.362.809.809v1.619c0 .518-.184 1.006-.496 1.385-.27.324-.66.503-1.066.503-.195 0-.384-.045-.545-.127z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border border-gray-100">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">Send Us a Message</h3>
+                    <form action="#" method="POST" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 sr-only">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required
+                                class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 transition duration-200 focus:outline-none">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 sr-only">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required
+                                class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 transition duration-200 focus:outline-none">
+                        </div>
+                        <div>
+                            <label for="service" class="block text-sm font-medium text-gray-700 sr-only">Service Needed</label>
+                            <select id="service" name="service"
+                                class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 transition duration-200 focus:outline-none">
+                                <option value="">Select a Service</option>
+                                <option value="dstv">DStv Installation</option>
+                                <option value="ovhd">OVHD Installation</option>
+                                <option value="tv-mounting">TV Wall Mounting</option>
+                                <option value="cctv">CCTV Installation</option>
+                                <option value="tv-repairs">TV Repairs</option>
+                                <option value="appliance-repairs">Home Appliance Repairs</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 sr-only">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required
+                                class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 transition duration-200 focus:outline-none"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-blue-700 text-white py-3 px-6 rounded-md hover:bg-blue-800 transition duration-300 font-bold shadow-md transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-6 md:px-10 rounded-t-lg shadow-inner">
+        <div class="container mx-auto text-center text-sm md:text-base">
+            <p>&copy; <span id="current-year"></span> Aura Installations. All rights reserved.</p>
+            <p class="mt-2">Designed with passion by Aura Installations team.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu & Current Year -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            // Toggle mobile menu visibility
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Close mobile menu when a link is clicked
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+
+            // Update current year in footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
